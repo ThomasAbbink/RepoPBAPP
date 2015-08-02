@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Pleinbioscoop.iml" filepath="$PROJECT_DIR$/Pleinbioscoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RepoPBAPP.iml" filepath="$PROJECT_DIR$/RepoPBAPP.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
