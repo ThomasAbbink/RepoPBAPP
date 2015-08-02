@@ -1,9 +1,12 @@
 package com.thomas.pleinbioscoop;
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Pleinbioscoop extends AppCompatActivity {
 
@@ -34,4 +37,16 @@ public class Pleinbioscoop extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    /* method for opening the PB website from a View (such as a button). */
+    public void openWebsite(View v){
+        Uri uri = Uri.parse("http://www.pleinbioscooprotterdam.nl/");
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
+
+
+
+
 }
