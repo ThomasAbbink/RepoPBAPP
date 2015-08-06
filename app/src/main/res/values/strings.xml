@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Pleinbioscoop</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="website">Klik hier voor de website</string>
 
-    <string name="pleinbioscoop">Dit is de pleinbioscoop APP</string>
-    <string name="prog_button">Programma</string>
-    <string name="title_activity_programma">Programma</string>
+    <string name="title_activity_main">Pleinbioscoop</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
 </resources>

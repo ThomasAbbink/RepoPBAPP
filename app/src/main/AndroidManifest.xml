@@ -8,21 +8,13 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".Pleinbioscoop"
-            android:label="@string/app_name" >
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name=".ProgrammaActivity"
-            android:label="@string/title_activity_programma"
-            android:parentActivityName=".Pleinbioscoop" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.thomas.pleinbioscoop.Pleinbioscoop" />
         </activity>
     </application>
 
