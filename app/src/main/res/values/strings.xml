@@ -7,4 +7,5 @@
 
     <string name="pleinbioscoop">Dit is de pleinbioscoop APP</string>
     <string name="prog_button">Programma</string>
+    <string name="title_activity_programma">Programma</string>
 </resources>
