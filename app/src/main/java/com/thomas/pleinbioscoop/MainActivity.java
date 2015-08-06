@@ -15,7 +15,7 @@ public class MainActivity
     private TabsPagerAdapter mAdapter;
     private ActionBar actionBar;
     // Tab titles
-    private String[] tabs = { "Top Rated", "Games", "Movies" };
+    private String[] tabs = { "Programma", "Info" };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
