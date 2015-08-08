@@ -19,13 +19,15 @@ public class InfoFragment extends ListFragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        Resources res = getResources();
-        list = (ListView) getActivity().findViewById(R.id.listview1);
-        titles = res.getStringArray(R.array.text_info);
-        desc = res.getStringArray(R.array.text_desc);
+        String[] temp = {"herp", "derp", "derp2"};
+
+//        Resources res = getResources();
+//        list = (ListView) getActivity().findViewById(R.id.listview1);
+//        titles = res.getStringArray(R.array.text_info);
+//        desc = res.getStringArray(R.array.text_desc);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                R.layout.info_list, R.id.listview1, titles);
+                R.layout.info_list, R.id.listview1, temp);
 
         list.setAdapter(adapter);
     }
