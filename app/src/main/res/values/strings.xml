@@ -9,4 +9,24 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
+
+    <string-array name="text_info">
+        <item>Stoeltjes</item>
+        <item>Drank</item>
+        <item>Openingstijden</item>
+        <item>Tickets</item>
+    </string-array>
+
+    <string-array name="text_desc">
+        <item>stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes
+        stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes </item>
+        <item>drank drank drank drank drank drank drank drank drank drank drank drank drank
+        drank drank drank drank drank drank drank drank drank drank drank drank drank </item>
+        <item>openingstijden openingstijden openingstijden openingstijden openingstijden
+        openingstijden openingstijden openingstijden openingstijden openingstijden </item>
+        <item>tickets tickets tickets tickets tickets tickets tickets tickets tickets tickets
+        tickets tickets tickets tickets tickets tickets tickets tickets tickets tickets </item>
+    </string-array>
+
+
 </resources>
