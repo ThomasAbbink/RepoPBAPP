@@ -1,13 +1,11 @@
 package com.thomas.pleinbioscoop;
 
-import android.database.DataSetObserver;
 import android.os.Bundle;
 import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ExpandableListAdapter;
 
 public class ProgrammaFragment extends ListFragment {
     int mCurCheckPosition = 0;
@@ -38,7 +36,7 @@ public class ProgrammaFragment extends ListFragment {
 
         // Populate list with our static array of titles.
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_expandable_list_item_1, movies);
+                android.R.layout.simple_list_item_1, movies);
         setListAdapter(adapter);
 
         // Restore last state for checked position.
@@ -57,4 +55,5 @@ public class ProgrammaFragment extends ListFragment {
 
         return rootView;
     }
+
 }
