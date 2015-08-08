@@ -21,8 +21,6 @@ public class InfoFragment extends ListFragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        //String[] temp = {"herp", "derp", "derp2"};
-
         Resources res = getResources();
         titles = res.getStringArray(R.array.text_info);
         desc = res.getStringArray(R.array.text_desc);
@@ -53,6 +51,7 @@ public class InfoFragment extends ListFragment {
         else
             detail.setVisibility(View.GONE);
 
+        l.invalidate();
         //adapter.notifyDataSetChanged()
     }
 
