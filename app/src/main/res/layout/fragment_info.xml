@@ -1,19 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/gradient" >
 
-    <ListView
-        android:id="@+id/info_list"
+    <!-- Layout for stoeltjes title/detail pair  -->
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:divider="#000"
-        android:dividerHeight="0.5dp"
-        android:padding="7dp"
-        android:layout_alignParentBottom="true" />
+        android:layout_height="wrap_content" >
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stoeltjes"
+            android:onClick="itemClickInInfoFragment" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stoeltjes_detail"
+            android:paddingLeft="10dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Layout for openingstijden title/detail pair  -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/openingstijden"
+            android:onClick="itemClickInInfoFragment" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/openingstijden_det"
+            android:paddingLeft="10dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Layout for drank title/detail pair  -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drank"
+            android:onClick="itemClickInInfoFragment" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drank_det"
+            android:paddingLeft="10dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- Layout for tickets title/detail pair  -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tickets"
+            android:onClick="itemClickInInfoFragment" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tickets_det"
+            android:paddingLeft="10dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

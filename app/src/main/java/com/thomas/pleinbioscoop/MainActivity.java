@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-import android.widget.TextView;
 
 public class MainActivity
         extends FragmentActivity
@@ -76,4 +75,7 @@ public class MainActivity
     public void onTabUnselected(Tab tab, FragmentTransaction ft) {
     }
 
+    public void itemClickInInfoFragment(View v){
+        InfoFragment.myOnItemClick(v);
+    }
 }

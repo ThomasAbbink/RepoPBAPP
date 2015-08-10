@@ -1,32 +1,29 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- App and main_activity resources-->
     <string name="app_name">Pleinbioscoop</string>
-
     <string name="action_settings">Settings</string>
-
     <string name="title_activity_main">Pleinbioscoop</string>
 
+    <!-- Tab resources-->
     <integer name="tabs_count">2</integer>
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
 
-    <string-array name="text_info">
-        <item>Stoeltjes</item>
-        <item>Drank</item>
-        <item>Openingstijden</item>
-        <item>Tickets</item>
-    </string-array>
+    <!-- Strings for list titles in the Info Fragment-->
+    <string name="stoeltjes">Stoeltjes</string>
+    <string name="drank">Drank</string>
+    <string name="openingstijden">Openingstijden</string>
+    <string name="tickets">Tickets</string>
 
-    <string-array name="text_desc">
-        <item>stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes
-        stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes </item>
-        <item>drank drank drank drank drank drank drank drank drank drank drank drank drank
-        drank drank drank drank drank drank drank drank drank drank drank drank drank </item>
-        <item>openingstijden openingstijden openingstijden openingstijden openingstijden
-        openingstijden openingstijden openingstijden openingstijden openingstijden </item>
-        <item>tickets tickets tickets tickets tickets tickets tickets tickets tickets tickets
-        tickets tickets tickets tickets tickets tickets tickets tickets tickets tickets </item>
-    </string-array>
-
+    <!-- Strings for the detail panes in the Info Fragment-->
+    <string name="stoeltjes_detail">stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes
+        stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes </string>
+    <string name="drank_det">drank drank drank drank drank drank drank drank drank drank
+        drank drank drank drank drank drank drank drank drank drank drank drank drank </string>
+    <string name="openingstijden_det">openingstijden openingstijden openingstijden openingstijden
+        openingstijden openingstijden openingstijden openingstijden openingstijden</string>
+    <string name="tickets_det">tickets tickets tickets tickets tickets tickets tickets tickets
+        tickets tickets tickets tickets tickets tickets tickets tickets tickets tickets</string>
 
 </resources>
