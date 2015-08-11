@@ -3,6 +3,8 @@ package com.thomas.pleinbioscoop;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.drawable.Drawable;
+import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -32,7 +34,7 @@ public class FilmActivity extends Activity {
         String trailer = res.getStringArray(R.array.trailer)[index];
 
 
-        ((TextView)findViewById(R.id.movietitle)).setText(title);
+        ((TextView) findViewById(R.id.movietitle)).setText(title);
         ((TextView)findViewById(R.id.movieinfo)).setText(info);
         ((TextView)findViewById(R.id.movieplot)).setText(plot);
         ((TextView)findViewById(R.id.trailer_url)).setText(trailer);

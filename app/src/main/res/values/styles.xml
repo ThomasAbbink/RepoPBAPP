@@ -5,4 +5,23 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="info_title">
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">itemClickInInfoFragment</item>
+    </style>
+
+    <style name="info_details">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="programme_list_item">
+
+    </style>
+
 </resources>
