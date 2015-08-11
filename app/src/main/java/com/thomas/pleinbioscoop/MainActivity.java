@@ -75,6 +75,7 @@ public class MainActivity
     public void onTabUnselected(Tab tab, FragmentTransaction ft) {
     }
 
+    // Method for when user clicks on a list item in the Info Fragment.
     public void itemClickInInfoFragment(View v){
         InfoFragment.myOnItemClick(v);
     }

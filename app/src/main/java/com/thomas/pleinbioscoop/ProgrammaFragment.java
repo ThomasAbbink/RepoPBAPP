@@ -1,6 +1,5 @@
 package com.thomas.pleinbioscoop;
 
-import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -33,7 +32,6 @@ public class ProgrammaFragment extends ListFragment {
         if (savedInstanceState != null) {
             mCurCheckPosition = savedInstanceState.getInt("curChoice", 0);
         }
-
     }
 
     @Override
@@ -48,8 +46,8 @@ public class ProgrammaFragment extends ListFragment {
     @Override
     public void onListItemClick (ListView l, View v, int position, long id){
         Intent myIntent = new Intent(getActivity(), FilmActivity.class);
-        myIntent.putExtra("index", position); //Optional parameters
-        String message = position+": "+((TextView)v).toString();
+        myIntent.putExtra("index", position);
+        String message = position+": "+((TextView)v).getText();
         Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
         getActivity().startActivity(myIntent);
     }
