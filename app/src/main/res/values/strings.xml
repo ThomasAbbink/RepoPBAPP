@@ -33,7 +33,8 @@
         <item>za 29 aug – Gone Girl</item>
         <item>zo 30 aug – Love is Strange</item>
     </string-array>
-    
+
+    <!--titels-->
     <string-array name="titles">
         <item>Whiplash</item>
         <item>Frank</item>
@@ -56,12 +57,73 @@
         <item>Love is Strange</item>
     </string-array>
 
+    <!--info titel-->
     <string-array name="info">
         <item>VS, 2014, 107 min, Audio: ENG Subs: NL</item>
+        <item>(UK, 2014, 95 min, Audio: ENG Subs: NL)</item>
+        <item>(UK, 2014, 114 min, Audio: ENG, Subs: NL)</item>
+        <item>(VS, 2014, 114 min, Audio: ENG Subs: NL)</item>
+        <item>(NL, 2014, 71 min, Audio: NL, No Subs)</item>
+        <item>(UK, 2014, 119 min, Audio: ENG, Subs: NL)</item>
+        <item>(NL, 2015, 90 min, Audio: NL, No Subs)</item>
+        <item>(HON, 2014, 121 min, Audio: HONG, Subs: NL)</item>
+        <item>(VS, 1984, 118 min, Audio: ENG, Subs: NL)</item>
+        <item>(VS, 2014, 121 min, Audio: ENG, Subs: NL)</item>
+        <item>(VS, 2014, 119 min, Audio: ENG, Subs: NL)</item>
+        <item>(IT, 2014, 110 min, Audio: IT, Subs: NL)</item>
+        <item>(VS, 2014, 101 min, Audio: ENG, Subs: NL)</item>
+        <item>(ZW, 2014, 120 min, Audio: SW, Subs: NL)</item>
+        <item>(VS, 2014, 134 min, Audio: ENG, Subs: NL)</item>
+        <item>(VS, 1976, 113 min, Audio: ENG, Subs: NL)</item>
+        <item>(VS, 2014, 115 min, Audio: ENG, Subs: NL)</item>
+        <item>(VS, 2014, 149 min, Audio: ENG, Subs: NL)</item>
+        <item>(VS, 2014, 94 min, Audio: ENG, Subs: NL)</item>
     </string-array>
 
+    <!--plot info-->
     <string-array name="plot">
         <item>De ambitieuze muziekstudent Andrew (Miles Teller) drumt alsof zijn leven ervan afhangt in het intense muziekdrama Whiplash. J.K. Simmons won een Oscar voor zijn rol als enge muziekleraar.</item>
+        <item>Jonge Ierse muzikant krijgt de kans van zijn leven als hij mag invallen bij een hippe band met een nogal vreemde zanger. Dwarse, lieve komedie met (waarschijnlijk) Michael Fassbender.</item>
+        <item>Het tumultueze leven van wiskundige Alan Turing, een oorlogsheld die nooit de eer kreeg die hij verdiende. Fraaie hoofdrol van Benedict Cumberbatch.</item>
+        <item>Na een serie mislukkingen gooit topkok Carl zijn leven over een andere boeg en koopt een oude foodtruck. Fijne feelgood-film voor foodies, ook met Scarlett Johansson en Sofia Vergara.</item>
+        <item>Twee agenten bellen aan met slecht nieuws. Zo begint dit sterke, ontroerende Nederlandse speelfilmdebuut, dat laat zien hoe het een Rotterdams gezin daarna vergaat.</item>
+        <item>homoactivisten uit Londen neemt het op voor de stakende mijnwerkers in het noorden. Vrolijk stemmende ensemblefilm over love en (gay) pride en prejudice.</item>
+        <item>Energieke documentaire over turbo-topkok Sergio Herman. Hij sluit zijn driesterrenrestaurant Oud Sluis omdat hij het rustiger aan wil doen. Maar of dat lukt?</item>
+        <item>Een verbluffende, eigenzinnige mix van genres. Wat begint als een melodrama over een meisje dat haar hond kwijtraakt, eindigt in onvervalste honden-horror.</item>
+        <item>India, 1935: een heilige steen, een griezelige tempel. Hoe het allemaal begon in Spielbergs onverwoestbaar amusante Indy Jones-serie.</item>
+        <item>Van de vele superheldenfilms van de laatste jaren is dit een van de vermakelijkste. Een wasbeer, een groene vrouw, een wandelende boom en Chris Pratt vechten samen tegen intergalactisch gespuis.</item>
+        <item>De grote Oscarwinnaar van dit jaar is een virtuoos drama over een ooit beroemde acteur die zijn carrière probeert op te peppen. Met Michael Keaton en Edward Norton.</item>
+        <item>Dromerig zomers drama met de Italiaanse sterren Alba Rohrwacher en Monica Bellucci. Op het Italiaanse platteland probeert een familie zelfvoorzienend te leven. De oudste dochter begint te puberen.</item>
+        <item>Taalprofessor Alice (Julianne Moore, bekroond met een Oscar) verliest langzaam de grip op zichzelf en de wereld om haar heen. Aangrijpend gezinsdrama over de gevolgen van Alzheimer.</item>
+        <item>Red je bij een ramp eerst jezelf en je telefoon, of je kinderen en je vrouw? In theorie geen moeilijke vraag, maar het praktijkvoorbeeld pakt in deze vlijmscherpe Zweedse komedie lastiger uit.</item>
+        <item>Het intrigerende, waargebeurde verhaal van twee sportieve broers en hun excentrieke coach. Met fantastisch acteerwerk van Channing Tatum en Mark Ruffalo.</item>
+        <item>‘You talkin’ to me?’ Scorsese’s magnifieke grotestads-psychothriller, vertoond op 35mm.</item>
+        <item>Knap, geestig en soms pijnlijk wildernisdrama gebaseerd op de memoires van Cheryl Strayed (Reese Witherspoon), die zonder voorbereiding een wandeltocht van 1700 kilometer onderneemt.</item>
+        <item>IJzersterke thriller naar de bestseller van Gillian Flynn. Hoe een fijn huwelijk ontaardt in een bloederige puinhoop. Met Ben Affleck en Rosamund Pike.</item>
+        <item>Een onderschat pareltje, dit mooie drama over het New-Yorkse stel Ben (John Lithgow) en George (Alfred Molina). Ze zijn al eeuwen samen, kunnen eindelijk trouwen, en dan gaat het mis.</item>
+    </string-array>
+
+    <!--youtube links-->
+    <string-array name="youtube">
+        <item>https://www.youtube.com/watch?v=7d_jQycdQGo</item> <!--whiplash-->
+        <item>https://www.youtube.com/watch?v=-catC4tBVyY</item> <!--Frank-->
+        <item>https://www.youtube.com/watch?v=S5CjKEFb-sM</item> <!--the imitation game-->
+        <item>https://www.youtube.com/watch?v=FF_rYNupPwg</item> <!--chef-->
+        <item>https://www.youtube.com/watch?v=w1g-18UyL3k</item> <!--tussen 10 en 12-->
+        <item>https://www.youtube.com/watch?v=kZfFvsKDuUU</item> <!--pride-->
+        <item>https://www.youtube.com/watch?v=HNmEj8qAOJc</item> <!--sergio herman-->
+        <item>https://www.youtube.com/watch?v=kIGz2kyo26U</item> <!--white god-->
+        <item>https://www.youtube.com/watch?v=HOwWfns4qqw</item> <!--indiana jones-->
+        <item>https://www.youtube.com/watch?v=d96cjJhvlMA</item> <!--guardians-->
+        <item>https://www.youtube.com/watch?v=uJfLoE6hanc</item> <!--birdman-->
+        <item>https://www.youtube.com/watch?v=UyEmDbPtAwg</item> <!--meraviglie-->
+        <item>https://www.youtube.com/watch?v=ZrXrZ5iiR0o</item> <!--still alice-->
+        <item>https://www.youtube.com/watch?v=WAyNmSd8SaQ</item> <!--turist-->
+        <item>https://www.youtube.com/watch?v=8361stZ8n0w</item> <!--foxcatcher-->
+        <item>https://www.youtube.com/watch?v=44gB58YS53A</item> <!--taxi driver-->
+        <item>https://www.youtube.com/watch?v=tn2-GSqPyl0</item> <!--wild-->
+        <item>https://www.youtube.com/watch?v=esGn-xKFZdU</item> <!--gone girl-->
+        <item>https://www.youtube.com/watch?v=NlAOzOIqUJ4</item> <!--love is strange-->
     </string-array>
 
     <!-- Strings for the Info Fragment-->
