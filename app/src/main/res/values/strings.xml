@@ -33,7 +33,8 @@
         <item>za 29 aug – Gone Girl</item>
         <item>zo 30 aug – Love is Strange</item>
     </string-array>
-    
+
+    <!-- Array, containing titles only-->
     <string-array name="titles">
         <item>Whiplash</item>
         <item>Frank</item>
@@ -56,10 +57,12 @@
         <item>Love is Strange</item>
     </string-array>
 
+    <!-- Array, containing meta data on each film (country, length, language etc.) -->
     <string-array name="info">
         <item>VS, 2014, 107 min, Audio: ENG Subs: NL</item>
     </string-array>
 
+    <!-- Array, containing plots on each film-->
     <string-array name="plot">
         <item>De ambitieuze muziekstudent Andrew (Miles Teller) drumt alsof zijn leven ervan afhangt in het intense muziekdrama Whiplash. J.K. Simmons won een Oscar voor zijn rol als enge muziekleraar.</item>
     </string-array>
