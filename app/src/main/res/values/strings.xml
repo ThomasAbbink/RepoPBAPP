@@ -106,7 +106,7 @@
     </string-array>
 
     <!--youtube links-->
-    <string-array name="trailer">
+    <string-array name="trailer_url">
         <item>https://www.youtube.com/watch?v=7d_jQycdQGo</item> <!--whiplash-->
         <item>https://www.youtube.com/watch?v=-catC4tBVyY</item> <!--Frank-->
         <item>https://www.youtube.com/watch?v=S5CjKEFb-sM</item> <!--the imitation game-->

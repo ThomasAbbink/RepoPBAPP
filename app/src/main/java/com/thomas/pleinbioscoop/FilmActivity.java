@@ -31,13 +31,14 @@ public class FilmActivity extends Activity {
         String title = res.getStringArray(R.array.titles)[index];
         String info = res.getStringArray(R.array.info)[index];
         String plot = res.getStringArray(R.array.plot)[index];
-        String trailer = res.getStringArray(R.array.trailer)[index];
-
+        String trailer_url = res.getStringArray(R.array.trailer_url)[index];
+        int thumbnail = getResources().getIdentifier("f"+index, "drawable", getPackageName());
 
         ((TextView) findViewById(R.id.movietitle)).setText(title);
         ((TextView)findViewById(R.id.movieinfo)).setText(info);
         ((TextView)findViewById(R.id.movieplot)).setText(plot);
-        ((TextView)findViewById(R.id.trailer_url)).setText(trailer);
+        ((TextView)findViewById(R.id.trailer_url)).setText(trailer_url); //hidden textview for url
+        ((ImageButton)findViewById(R.id.trailerbutton)).setImageResource(thumbnail);
 
     }
 
