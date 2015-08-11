@@ -133,18 +133,39 @@
     <string name="drank">Drank</string>
     <string name="openingstijden">Openingstijden</string>
     <string name="tickets">Tickets</string>
+    <string name="organisatie">Organisatie</string>
 
     <!-- Strings for the detail panes in the Info Fragment-->
-    <string name="stoeltjes_detail">stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes
-        stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes stoeltjes </string>
-    <string name="drank_det">drank drank drank drank drank drank drank drank drank drank
-        drank drank drank drank drank drank drank drank drank drank drank drank drank </string>
-    <string name="openingstijden_det">openingstijden openingstijden openingstijden openingstijden
-        openingstijden openingstijden openingstijden openingstijden openingstijden</string>
-    <string name="tickets_det">tickets tickets tickets tickets tickets tickets tickets tickets
-        tickets tickets tickets tickets tickets tickets tickets tickets tickets tickets</string>
+    <string name="stoeltjes_detail">Bezoekers kunnen een stoel huren voor 1,- euro (er zijn genoeg stoelen aanwezig) of mogen een eigen stoel meenemen.
+                                    Vroege vogels kunnen een van de al aanwezige zitplaatsen claimen.
+                                    Er zijn dekens beschikbaar op het terrein tegen een borg van 10,- euro.
+                                    We raden aan om voor de koelere avonduren extra kleding mee te nemen. </string>
+    <string name="drank_det">Er is een groot aanbod aan eten en drinken aanwezig op het terrein. Eigen eten en drinken mag mee, maar mag, om veiligeheidsredenen niet in glas zijn verpakt. </string>
+    <string name="openingstijden_det">  Het terrein is geopend om 19:00 uur, dan kun je dineren en live muziek beluisteren.
+                                        Start filmprogramma inclusief korte film om 21:15 uur. Er is geen pauze in de film.\n
+                                        \nMet name in de eerste dagen zal de film iets later moeten starten i.v.m. de zonsondergang, want pas in het donker is de film goed te zien. Het terrein sluit om middernacht.
+</string>
+    <string name="tickets_det"> € 6,- voor een ‘Steun de Pleinbioscoop’ Ticket.\n
+                                \n€ 4,- euro regulier tarief\n
+                                \n€ 30,- Tien ritten kaart. Te gebruiken met max. 2 personen per avond.\n
+                                \nEen stoel huren: € 1,-.\n
+                                \nKoop je kaarten online of bij de entree kassa.
+</string>
+    <string name="organisatie_dat">
+        De Pleinbioscoop Rotterdam 2015 wordt georganiseerd door Stichting Pleinbioscoop Rotterdam:\n
+        \nZakelijk Leider: Joost Maaskant\n
+        \nProjectleider: Randi de Vries\n
+        \nProgrammeur: Pauline Kleijer\n
+       \nMarketing en Communicatie + Speciale Projecten: Nikki Kamps\n
+        \nVormgeving: HuffenReuter Beeld en Boodschap\n
+        \nWebsite: Tanja Stomp\n
+        \nVrijwilligers: Thomas en Thomas\n
+        \nHoreca en Stoeltjescollectief: Hannah Abbink\n
+        \nFondsenwerving: Ineke Kruizinga en Mirijam Neve\n
+        \nCurator Korte Film Competitie En Plein Public: Erwin Houtenbrink\n
+        \nPersbenadering: Femke Cuijpers/Creatieve Kwesties\n
+        \nApp: Arno Huisman en Thomas Abbink
+    </string>
 
-
-    <string name="hello_world">Hello world!</string>
 
 </resources>

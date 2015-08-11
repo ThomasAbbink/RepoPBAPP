@@ -11,13 +11,22 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:onClick">itemClickInInfoFragment</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingLeft">15dp</item>
+
     </style>
 
     <style name="info_details">
-        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingLeft">25dp</item>
         <item name="android:visibility">gone</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:typeface">sans</item>
+
     </style>
 
     <style name="programme_list_item">
