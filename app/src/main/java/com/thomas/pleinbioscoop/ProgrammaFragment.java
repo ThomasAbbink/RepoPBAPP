@@ -7,6 +7,7 @@ import android.support.v4.app.ListFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -28,6 +29,18 @@ public class ProgrammaFragment extends ListFragment {
                 R.layout.programme_list_item, R.id.list_item, movies);
         setListAdapter(adapter);
 
+        //new listener
+        ListView l = getListView();
+        l.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
+                Intent myIntent = new Intent(getActivity(), FilmActivity.class);
+                myIntent.putExtra("index", position);
+                Toast.makeText(getActivity(), position+"", Toast.LENGTH_SHORT).show();
+                getActivity().startActivity(myIntent);
+            }
+        });
+
         // Restore last state for checked position.
         if (savedInstanceState != null) {
             mCurCheckPosition = savedInstanceState.getInt("curChoice", 0);
@@ -43,13 +56,13 @@ public class ProgrammaFragment extends ListFragment {
         return rootView;
     }
 
-    @Override
-    public void onListItemClick (ListView l, View v, int position, long id){
-        Intent myIntent = new Intent(getActivity(), FilmActivity.class);
-        myIntent.putExtra("index", position);
-        String message = position+": "+((TextView)v).getText();
-        Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
-        getActivity().startActivity(myIntent);
-    }
+//    @Override
+//    public void onListItemClick (ListView l, View v, int position, long id){
+//        Intent myIntent = new Intent(getActivity(), FilmActivity.class);
+//        myIntent.putExtra("index", position);
+//        String message = position+": "+((TextView)v).getText();
+//        Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
+//        //getActivity().startActivity(myIntent);
+//    }
 
 }
