@@ -14,6 +14,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 
@@ -38,7 +39,7 @@ public class FilmActivity extends Activity {
         ((TextView)findViewById(R.id.movieinfo)).setText(info);
         ((TextView)findViewById(R.id.movieplot)).setText(plot);
         ((TextView)findViewById(R.id.trailer_url)).setText(trailer_url); //hidden textview for url
-        ((ImageButton)findViewById(R.id.trailerbutton)).setImageResource(thumbnail);
+        ((ImageView)findViewById(R.id.trailerbutton)).setImageResource(thumbnail);
 
     }
 
