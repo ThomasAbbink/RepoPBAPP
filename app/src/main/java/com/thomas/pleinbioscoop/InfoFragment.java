@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 public class InfoFragment extends Fragment {
 
@@ -18,12 +19,17 @@ public class InfoFragment extends Fragment {
 
     static void myOnItemClick(View v) {
         ViewGroup group = (ViewGroup) v.getParent();
+        View chevron = group.getChildAt(0);
+        group = (ViewGroup) group.getParent();
         View detail = group.getChildAt(1);
 
-        if ( detail.getVisibility() == View.GONE)
+        if ( detail.getVisibility() == View.GONE) {
             detail.setVisibility(View.VISIBLE);
-        else
+            ((ImageView)chevron).setImageResource(R.drawable.ic_expand_less_white_48dp);
+        } else {
             detail.setVisibility(View.GONE);
+            ((ImageView)chevron).setImageResource(R.drawable.ic_expand_more_white_48dp);
+        }
     }
 
 }

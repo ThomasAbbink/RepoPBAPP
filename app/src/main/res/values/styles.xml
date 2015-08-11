@@ -5,28 +5,43 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="info_title_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="info_chevron">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@drawable/ic_expand_more_white_48dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:onClick">itemClickInInfoFragment</item>
+        <item name="android:alpha">0.75</item>
+    </style>
+
     <style name="info_title">
         <item name="android:clickable">true</item>
-        <item name="android:textSize">30sp</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:onClick">itemClickInInfoFragment</item>
-        <item name="android:textColor">#ff000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#c0FFFFFF</item>
         <item name="android:typeface">sans</item>
-        <item name="android:paddingBottom">5dp</item>
-        <item name="android:paddingTop">5dp</item>
-        <item name="android:paddingLeft">15dp</item>
-
+        <!--<item name="android:paddingBottom">5dp</item>-->
+        <!--<item name="android:paddingTop">5dp</item>-->
+        <!--<item name="android:paddingLeft">15dp</item>-->
     </style>
 
     <style name="info_details">
-        <item name="android:paddingLeft">25dp</item>
+        <item name="android:paddingLeft">20dp</item>
         <item name="android:visibility">gone</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">#ff000000</item>
+        <item name="android:textColor">#c0FFFFFF</item>
         <item name="android:typeface">sans</item>
-
     </style>
 
     <style name="programme_list_item">
