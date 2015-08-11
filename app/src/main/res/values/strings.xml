@@ -13,25 +13,25 @@
 
     <!-- Array, containing the programme list content -->
     <string-array name="movies">
-        <item>wo 12 aug – Whiplash</item>
-        <item>do 13 aug – Frank</item>
-        <item>vr 14 aug – The Imitation Game</item>
-        <item>za 15 aug – Chef</item>
-        <item>zo 16 aug – Tussen 10 en 12</item>
-        <item>ma 17 aug – Pride</item>
-        <item>di 18 aug – Sergio Herman:Fucking Perfect</item>
-        <item>wo 19 aug – White God</item>
-        <item>do 20 aug – Indiana Jones and the Temple of Doom</item>
-        <item>vr 21 aug – Guardians of the Galaxy</item>
-        <item>za 22 aug – Birdman</item>
-        <item>zo 23 aug – Meraviglie</item>
-        <item>ma 24 aug – Still Alice</item>
-        <item>di 25 aug – Turist</item>
-        <item>wo 26 aug – Foxcatcher</item>
-        <item>do 27 aug – Taxi Driver</item>
-        <item>vr 28 aug – Wild</item>
-        <item>za 29 aug – Gone Girl</item>
-        <item>zo 30 aug – Love is Strange</item>
+        <item>wo 12\t\t– Whiplash</item>
+        <item>do 13\t\t– Frank</item>
+        <item>vr 14\t\t– The Imitation Game</item>
+        <item>za 15\t\t– Chef</item>
+        <item>zo 16\t\t– Tussen 10 en 12</item>
+        <item>ma 17\t\t– Pride</item>
+        <item>di 18\t\t– Sergio Herman: Fucking Perfect</item>
+        <item>wo 19\t\t– White God</item>
+        <item>do 20\t\t– Indiana Jones and the Temple of Doom</item>
+        <item>vr 21\t\t– Guardians of the Galaxy</item>
+        <item>za 22\t\t– Birdman</item>
+        <item>zo 23\t\t– Meraviglie</item>
+        <item>ma 24\t\t– Still Alice</item>
+        <item>di 25\t\t– Turist</item>
+        <item>wo 26\t\t– Foxcatcher</item>
+        <item>do 27\t\t– Taxi Driver</item>
+        <item>vr 28\t\t– Wild</item>
+        <item>za 29\t\t– Gone Girl</item>
+        <item>zo 30\t\t– Love is Strange</item>
     </string-array>
 
     <!--titels-->
