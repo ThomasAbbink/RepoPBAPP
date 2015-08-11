@@ -3,12 +3,15 @@ package com.thomas.pleinbioscoop;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 
@@ -30,7 +33,6 @@ public class FilmActivity extends Activity {
         ((TextView)findViewById(R.id.movietitle)).setText(title);
         ((TextView)findViewById(R.id.movieinfo)).setText(info);
         ((TextView)findViewById(R.id.movieplot)).setText(plot);
-
 
     }
 
@@ -54,5 +56,13 @@ public class FilmActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onTrailerClick(View v) {
+        // Get the correct youtube url.
+        String url = (((TextView)findViewById(R.id.trailer_url)).getText()).toString();
+
+        // Create intent with correct url and start it.
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
     }
 }

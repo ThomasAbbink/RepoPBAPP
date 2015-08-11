@@ -58,6 +58,7 @@
     </string-array>
 
     <!--info titel-->
+    <!-- Array, containing meta data on each film (country, length, language etc.) -->
     <string-array name="info">
         <item>VS, 2014, 107 min, Audio: ENG Subs: NL</item>
         <item>(UK, 2014, 95 min, Audio: ENG Subs: NL)</item>
@@ -81,6 +82,7 @@
     </string-array>
 
     <!--plot info-->
+    <!-- Array, containing plots on each film-->
     <string-array name="plot">
         <item>De ambitieuze muziekstudent Andrew (Miles Teller) drumt alsof zijn leven ervan afhangt in het intense muziekdrama Whiplash. J.K. Simmons won een Oscar voor zijn rol als enge muziekleraar.</item>
         <item>Jonge Ierse muzikant krijgt de kans van zijn leven als hij mag invallen bij een hippe band met een nogal vreemde zanger. Dwarse, lieve komedie met (waarschijnlijk) Michael Fassbender.</item>

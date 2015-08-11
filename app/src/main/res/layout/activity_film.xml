@@ -6,6 +6,13 @@
     android:background="@drawable/gradient" >
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:text=""
+        android:id="@+id/trailer_url"/>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="New Text"
@@ -31,12 +38,13 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <WebView
+    <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/movieWebView"
+        android:id="@+id/trailerbutton"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="onTrailerClick" />
 
 </RelativeLayout>
