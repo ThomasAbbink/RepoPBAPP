@@ -25,7 +25,7 @@ public class ProgrammaFragment extends ListFragment {
 
         // Populate list with our static array of titles.
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                android.R.layout.simple_list_item_1, movies);
+                R.layout.programme_list_item, movies);
         setListAdapter(adapter);
 
         // Restore last state for checked position.
