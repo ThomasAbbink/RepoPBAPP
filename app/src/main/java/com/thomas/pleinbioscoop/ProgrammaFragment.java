@@ -36,7 +36,7 @@ public class ProgrammaFragment extends ListFragment {
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {
                 Intent myIntent = new Intent(getActivity(), FilmActivity.class);
                 myIntent.putExtra("index", position);
-                Toast.makeText(getActivity(), position+"", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(getActivity(), position+"", Toast.LENGTH_SHORT).show();
                 getActivity().startActivity(myIntent);
             }
         });
@@ -55,14 +55,5 @@ public class ProgrammaFragment extends ListFragment {
 
         return rootView;
     }
-
-//    @Override
-//    public void onListItemClick (ListView l, View v, int position, long id){
-//        Intent myIntent = new Intent(getActivity(), FilmActivity.class);
-//        myIntent.putExtra("index", position);
-//        String message = position+": "+((TextView)v).getText();
-//        Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
-//        //getActivity().startActivity(myIntent);
-//    }
 
 }
