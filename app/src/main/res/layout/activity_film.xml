@@ -18,7 +18,8 @@
         android:text="New Text"
         android:id="@+id/movietitle"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        style="@style/movietitle"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,8 +27,8 @@
         android:text="New Text"
         android:id="@+id/movieinfo"
         android:layout_below="@+id/movietitle"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true"
+        style="@style/movieinfo"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -36,7 +37,8 @@
         android:id="@+id/movieplot"
         android:layout_below="@+id/movieinfo"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        style="@style/movieplot"/>
 
     <ImageView
         android:layout_width="match_parent"

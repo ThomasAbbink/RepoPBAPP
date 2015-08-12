@@ -44,6 +44,37 @@
         <item name="android:typeface">sans</item>
     </style>
 
+    <style name="movietitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#c0FFFFFF</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="movieinfo">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ff1973af</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="movieplot">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#c0FFFFFF</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
+
     <style name="programme_list_item">
 
     </style>

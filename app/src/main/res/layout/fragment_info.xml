@@ -11,29 +11,7 @@
         android:orientation="vertical"
         android:padding="15dp">
 
-        <!-- Layout for stoeltjes title/detail pair  -->
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
 
-            <LinearLayout
-                style="@style/info_title_container">
-
-                <ImageView
-                    style="@style/info_chevron"/>
-
-                <TextView
-                    style="@style/info_title"
-                    android:text="@string/stoeltjes" />
-
-            </LinearLayout>
-
-            <TextView
-                style="@style/info_details"
-                android:text="@string/stoeltjes_detail" />
-
-        </LinearLayout>
 
         <!-- Layout for openingstijden title/detail pair  -->
         <LinearLayout
@@ -59,29 +37,6 @@
 
         </LinearLayout>
 
-        <!-- Layout for drank title/detail pair  -->
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
-
-            <LinearLayout
-                style="@style/info_title_container">
-
-                <ImageView
-                    style="@style/info_chevron"/>
-
-                <TextView
-                    style="@style/info_title"
-                    android:text="@string/drank" />
-
-            </LinearLayout>
-
-            <TextView
-                style="@style/info_details"
-                android:text="@string/drank_det" />
-
-        </LinearLayout>
 
         <!-- Layout for tickets title/detail pair  -->
         <LinearLayout
@@ -97,17 +52,186 @@
 
                 <TextView
                     style="@style/info_title"
-                    android:text="@string/tickets"  />
+                    android:text="@string/prijzen"  />
 
             </LinearLayout>
 
             <TextView
                 style="@style/info_details"
-                android:text="@string/tickets_det" />
+                android:text="@string/prijzen_det" />
 
         </LinearLayout>
 
-        <!-- Layout for organisation title/detail pair  -->
+        <!-- Layout for stoeltjes title/detail pair  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/info_title_container">
+
+                <ImageView
+                    style="@style/info_chevron"/>
+
+                <TextView
+                    style="@style/info_title"
+                    android:text="@string/stoeltjes" />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/info_details"
+                android:text="@string/stoeltjes_detail" />
+
+        </LinearLayout>
+
+        <!-- Layout for eten en drinken title/detail pair  -->
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/info_title_container">
+
+                <ImageView
+                    style="@style/info_chevron" />
+
+                <TextView
+                    style="@style/info_title"
+                    android:text="@string/eten_drinken"  />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/info_details"
+                android:text="@string/eten_drinken_dat" />
+
+        </LinearLayout>
+
+        <!-- Layout for pinnen title/detail pair  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/info_title_container">
+
+                <ImageView
+                    style="@style/info_chevron" />
+
+                <TextView
+                    style="@style/info_title"
+                    android:text="@string/pinnen"  />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/info_details"
+                android:text="@string/pinnen_dat" />
+
+        </LinearLayout>
+
+        <!-- Layout for parkeren title/detail pair  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/info_title_container">
+
+                <ImageView
+                    style="@style/info_chevron" />
+
+                <TextView
+                    style="@style/info_title"
+                    android:text="@string/parkeren"  />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/info_details"
+                android:text="@string/parkeren_dat" />
+
+        </LinearLayout>
+
+        <!-- Layout for beperkingen title/detail pair  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/info_title_container">
+
+                <ImageView
+                    style="@style/info_chevron" />
+
+                <TextView
+                    style="@style/info_title"
+                    android:text="@string/beperking"  />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/info_details"
+                android:text="@string/beperking_dat" />
+
+        </LinearLayout>
+
+        <!-- Layout for dieren title/detail pair  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/info_title_container">
+
+                <ImageView
+                    style="@style/info_chevron" />
+
+                <TextView
+                    style="@style/info_title"
+                    android:text="@string/dieren"  />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/info_details"
+                android:text="@string/dieren_dat" />
+
+        </LinearLayout>
+
+        <!-- Layout for roken title/detail pair  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/info_title_container">
+
+                <ImageView
+                    style="@style/info_chevron" />
+
+                <TextView
+                    style="@style/info_title"
+                    android:text="@string/roken"  />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/info_details"
+                android:text="@string/roken_dat" />
+
+        </LinearLayout>
+
+        <!-- Layout for organisatie title/detail pair  -->
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
