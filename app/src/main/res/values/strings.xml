@@ -13,21 +13,21 @@
 
     <!-- Array, containing the programme list content -->
     <string-array name="movies">
-        <item>wo 12\t\t– Whiplash</item>
+        <item>wo 12\t– Whiplash</item>
         <item>do 13\t\t– Frank</item>
         <item>vr 14\t\t– The Imitation Game</item>
         <item>za 15\t\t– Chef</item>
         <item>zo 16\t\t– Tussen 10 en 12</item>
-        <item>ma 17\t\t– Pride</item>
+        <item>ma 17\t– Pride</item>
         <item>di 18\t\t– Sergio Herman: Fucking Perfect</item>
-        <item>wo 19\t\t– White God</item>
+        <item>wo 19\t– White God</item>
         <item>do 20\t\t– Indiana Jones and the Temple of Doom</item>
         <item>vr 21\t\t– Guardians of the Galaxy</item>
         <item>za 22\t\t– Birdman</item>
         <item>zo 23\t\t– Meraviglie</item>
-        <item>ma 24\t\t– Still Alice</item>
+        <item>ma 24\t– Still Alice</item>
         <item>di 25\t\t– Turist</item>
-        <item>wo 26\t\t– Foxcatcher</item>
+        <item>wo 26\t– Foxcatcher</item>
         <item>do 27\t\t– Taxi Driver</item>
         <item>vr 28\t\t– Wild</item>
         <item>za 29\t\t– Gone Girl</item>
@@ -42,7 +42,7 @@
         <item>Chef</item>
         <item>Tussen 10 en 12</item>
         <item>Pride</item>
-        <item>Sergio Herman:Fucking Perfect</item>
+        <item>Sergio Herman: Fucking Perfect</item>
         <item>White God</item>
         <item>Indiana Jones and the Temple of doom</item>
         <item>Guardians of the Galaxy</item>
