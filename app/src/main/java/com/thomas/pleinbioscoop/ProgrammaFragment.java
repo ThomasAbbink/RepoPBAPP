@@ -1,19 +1,17 @@
 package com.thomas.pleinbioscoop;
 
+
 import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
+import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
-public class ProgrammaFragment extends ListFragment {
+public class ProgrammaFragment extends Fragment {
     int mCurCheckPosition = 0;
 
     @Override
@@ -22,15 +20,24 @@ public class ProgrammaFragment extends ListFragment {
 
         // Get the movies array from strings.xml
         Resources res = getResources();
-        String[] movies = res.getStringArray(R.array.movies);
+        String[] titles = res.getStringArray(R.array.titles);
+        String[] dates = res.getStringArray(R.array.dates);
 
-        // Populate list with our static array of titles.
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
-                R.layout.programme_list_item, R.id.list_item, movies);
-        setListAdapter(adapter);
+        ProgrammeAdapter padapter = new ProgrammeAdapter(   getActivity(),
+                                                            R.layout.programme_list_item2,
+                                                            dates,
+                                                            titles);
 
-        //new listener
-        ListView l = getListView();
+        ListView l = (ListView) getActivity().findViewById(R.id.proglist);
+        l.setAdapter(padapter);
+
+//        // Populate list with our static array of titles.
+//        ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
+//                R.layout.programme_list_item, R.id.list_item, movies);
+//        setListAdapter(adapter);
+//
+//        //new listener
+
         l.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View v, int position, long id) {

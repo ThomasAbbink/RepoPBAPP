@@ -7,9 +7,6 @@
 
     <!-- Tab resources-->
     <integer name="tabs_count">2</integer>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
 
     <!-- Array, containing the programme list content -->
     <string-array name="movies">
@@ -32,6 +29,28 @@
         <item>vr 28\t\t\t– Wild</item>
         <item>za 29\t\t– Gone Girl</item>
         <item>zo 30\t\t– Love is Strange</item>
+    </string-array>
+
+    <string-array name="dates">
+        <item>wo 12</item>
+        <item>do 13</item>
+        <item>vr 14</item>
+        <item>za 15</item>
+        <item>zo 16</item>
+        <item>ma 17</item>
+        <item>di 18</item>
+        <item>wo 19</item>
+        <item>do 20</item>
+        <item>vr 21</item>
+        <item>za 22</item>
+        <item>zo 23</item>
+        <item>ma 24</item>
+        <item>di 25</item>
+        <item>wo 26</item>
+        <item>do 27</item>
+        <item>vr 28</item>
+        <item>za 29</item>
+        <item>zo 30</item>
     </string-array>
 
     <!--titels-->

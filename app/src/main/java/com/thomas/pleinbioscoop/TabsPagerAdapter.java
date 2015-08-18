@@ -1,5 +1,6 @@
 package com.thomas.pleinbioscoop;
 
+import android.content.res.Resources;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
