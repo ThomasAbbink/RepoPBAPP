@@ -59,13 +59,13 @@ public class FilmActivity extends Activity {
         // Create intent with correct url and start it.
         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
     }
+
     public void onTicketsClick(View v){
         String url = "https://pleinbioscoop.stager.nl/web/tickets";
 
         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
-
-
     }
+
 }
 
 
