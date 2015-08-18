@@ -3,17 +3,10 @@ package com.thomas.pleinbioscoop;
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.graphics.drawable.Drawable;
-import android.media.Image;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -35,7 +28,7 @@ public class FilmActivity extends Activity {
         String trailer_url = res.getStringArray(R.array.trailer_url)[index];
         int thumbnail = getResources().getIdentifier("f"+index, "drawable", getPackageName());
 
-        ((TextView) findViewById(R.id.movietitle)).setText(title);
+        ((TextView)findViewById(R.id.movietitle)).setText(title);
         ((TextView)findViewById(R.id.movieinfo)).setText(info);
         ((TextView)findViewById(R.id.movieplot)).setText(plot);
         ((TextView)findViewById(R.id.trailer_url)).setText(trailer_url); //hidden textview for url
@@ -43,12 +36,6 @@ public class FilmActivity extends Activity {
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_film, menu);
-        return true;
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -72,4 +59,15 @@ public class FilmActivity extends Activity {
         // Create intent with correct url and start it.
         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
     }
+    public void onTicketsClick(View v){
+        String url = "https://pleinbioscoop.stager.nl/web/tickets";
+
+        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+
+
+    }
 }
+
+
+
+

@@ -11,8 +11,6 @@
         android:orientation="vertical"
         android:padding="15dp">
 
-
-
         <!-- Layout for openingstijden title/detail pair  -->
         <LinearLayout
             android:orientation="vertical"
@@ -228,6 +226,29 @@
             <TextView
                 style="@style/info_details"
                 android:text="@string/roken_dat" />
+
+        </LinearLayout>
+        <!-- Layout for vrijwilligers title/detail pair  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/info_title_container">
+
+                <ImageView
+                    style="@style/info_chevron" />
+
+                <TextView
+                    style="@style/info_title"
+                    android:text="@string/vrijwilligers"  />
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/info_details"
+                android:text="@string/vrijwilligers_dat" />
 
         </LinearLayout>
 

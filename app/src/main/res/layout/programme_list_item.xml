@@ -16,10 +16,11 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:textSize="20sp"
-        android:textColor="#a0ffffff"
+        android:textColor="@drawable/clickable_color"
         android:typeface="sans"
         android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@id/pijltje" />
+        android:layout_toLeftOf="@id/pijltje"
+        android:paddingLeft="8dp" />
 
 
 

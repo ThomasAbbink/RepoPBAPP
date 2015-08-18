@@ -1,56 +1,77 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.thomas.pleinbioscoop.FilmActivity"
-    android:background="@drawable/gradient" >
+    android:background="@drawable/gradient">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:visibility="gone"
-        android:text=""
-        android:id="@+id/trailer_url"/>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.thomas.pleinbioscoop.FilmActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/movietitle"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        style="@style/movietitle"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:text=""
+            android:id="@+id/trailer_url"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/movieinfo"
-        android:layout_below="@+id/movietitle"
-        android:layout_centerHorizontal="true"
-        style="@style/movieinfo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/movietitle"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            style="@style/movietitle"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/movieplot"
-        android:layout_below="@+id/movieinfo"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        style="@style/movieplot"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/movieinfo"
+            android:layout_below="@+id/movietitle"
+            android:layout_centerHorizontal="true"
+            style="@style/movieinfo"/>
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/trailerbutton"
-        android:clickable="true"
-        android:onClick="onTrailerClick"
-        android:adjustViewBounds="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/movieplot"
+            android:layout_below="@+id/movieinfo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            style="@style/movieplot"/>
 
-</RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tickets"
+            android:id="@+id/ticketbutton"
+            android:clickable="true"
+            android:onClick="onTicketsClick"
+            android:layout_below="@id/movieplot"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:textColor="@drawable/clickable_color"
+            style="@style/ticketbutton"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trailerbutton"
+            android:clickable="true"
+            android:onClick="onTrailerClick"
+            android:adjustViewBounds="true"
+            android:layout_below="@+id/ticketbutton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+</ScrollView>

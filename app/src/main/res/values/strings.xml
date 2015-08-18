@@ -15,21 +15,21 @@
     <string-array name="movies">
         <item>wo 12\t– Whiplash</item>
         <item>do 13\t\t– Frank</item>
-        <item>vr 14\t\t– The Imitation Game</item>
+        <item>vr 14\t\t\t– The Imitation Game</item>
         <item>za 15\t\t– Chef</item>
         <item>zo 16\t\t– Tussen 10 en 12</item>
         <item>ma 17\t– Pride</item>
-        <item>di 18\t\t– Sergio Herman: Fucking Perfect</item>
+        <item>di 18\t\t\t– Sergio Herman: Fucking Perfect</item>
         <item>wo 19\t– White God</item>
         <item>do 20\t\t– Indiana Jones and the Temple of Doom</item>
-        <item>vr 21\t\t– Guardians of the Galaxy</item>
+        <item>vr 21\t\t\t– Guardians of the Galaxy</item>
         <item>za 22\t\t– Birdman</item>
         <item>zo 23\t\t– Meraviglie</item>
         <item>ma 24\t– Still Alice</item>
-        <item>di 25\t\t– Turist</item>
+        <item>di 25\t\t\t– Turist</item>
         <item>wo 26\t– Foxcatcher</item>
         <item>do 27\t\t– Taxi Driver</item>
-        <item>vr 28\t\t– Wild</item>
+        <item>vr 28\t\t\t– Wild</item>
         <item>za 29\t\t– Gone Girl</item>
         <item>zo 30\t\t– Love is Strange</item>
     </string-array>
@@ -127,6 +127,9 @@
         <item>https://www.youtube.com/watch?v=esGn-xKFZdU</item> <!--gone girl-->
         <item>https://www.youtube.com/watch?v=NlAOzOIqUJ4</item> <!--love is strange-->
     </string-array>
+    <!--string name for the ticketbutton-->
+    <string name="tickets">Tickets</string>
+
 
     <!-- Strings for the Info Fragment-->
     <string name="stoeltjes">Stoeltjes</string>
@@ -140,6 +143,7 @@
     <string name="dieren">Dieren</string>
     <string name="pinnen">Pinnen</string>
     <string name="prijzen">Prijzen</string>
+    <string name="vrijwilligers">Vrijwilligers</string>
 
 
     <!-- Strings for the detail panes in the Info Fragment-->
@@ -155,8 +159,8 @@
     </string>
 
     <string name="openingstijden_det">
-            Het terrein is geopend om 19:00 uur, dan kun je dineren en live muziek beluisteren.
-            \nStart filmprogramma inclusief korte film om 21:15 uur.
+            Het terrein is geopend om 19:00 uur, dan kun je dineren en live muziek beluisteren.\n
+            \nStart filmprogramma inclusief korte film om 21:15 uur.\n
             \nEr is geen pauze in de film.\n
             \nMet name in de eerste dagen zal de film iets later moeten starten i.v.m. de zonsondergang, want pas in het donker is de film goed te zien. Het terrein sluit om middernacht.
     </string>
@@ -215,6 +219,83 @@
 
     <string name="pinnen_dat">
             Je kunt pinnen en geld opnemen bij de entreekassa.
+    </string>
+    <string name="vrijwilligers_dat">
+            \nDe Pleinbioscoop zou niet mogelijk zijn zonder het harde werken van al onze vrijwilligers:\n
+            \nAdwin van Gerven
+            \nAmelie Dufour
+            \nAndrée van de Berg
+            \nAnneke Koster
+            \nAnnekoos Logtenberg
+            \nAnnelous Wieringa
+            \nAnnemarie Rausch
+            \nAnton Hazenak
+            \nArdie  Vos
+            \nAriel Cabral
+            \nArthur van der Ham
+            \nArvid de Waardt
+            \nBerta Stossel
+            \nBoudewijn van Leeuwen
+            \nCaitlin Koenig
+            \nCarlo Pietramale
+            \nChu Ming Kwok
+            \nClaire Hathorne
+            \nDaphne Abbink
+            \nDaphne Bisterbosch
+            \nDiede Greweldinger
+            \nElias Abbink
+            \nElma Jonker
+            \nEmma Koenig
+            \nEric Langbroek
+            \nEsther van Vliet
+            \nFabienne Reedijk
+            \nFemke van der Voet
+            \nFloor van Dongen
+            \nGabriella Bink
+            \nGerard van Helden
+            \nGerdien van der Schenk
+            \nGiorgio Brouwer
+            \nHansje Veen
+            \nIris van der Rest
+            \nIsa Plug
+            \nJan Hoefnagels
+            \nJerry van Leeuwen
+            \nJolanda de Jonge
+            \nKim van Hees
+            \nLauren Verbrugh
+            \nLianne Enkhuizen
+            \nLoles Hoogerland
+            \nLotte van der Zel
+            \nMaaike Lagendijk
+            \nManon de Wit
+            \nMarcel van Berk
+            \nMarco Oudewortel
+            \nMarije Paulides
+            \nMarley van der Knaap
+            \nMilou Terpstra
+            \nMinerva Ishak
+            \nNaomi Stal
+            \nPinar dagidir
+            \nPriscilla Kadirbaks
+            \nRénia Sastrowidjojo
+            \nRenata Tavares Furtado
+            \nRoberto Solisa
+            \nRonelle Abbink
+            \nRuurd Bouter
+            \nSally Hoogenboom
+            \nSaskia Geraedts
+            \nSemmi Oudejans
+            \nStefanie Stappers
+            \nStijn Bossuyt
+            \nTereza Nerad
+            \nThomas Harteveld
+            \nThomas Thiele
+            \nTineke van der Gaast
+            \nVeerle Bonestroo
+            \nVera Bekkers
+            \nVera Robbertsen
+            \nWout Panis
+            \nZeny Rosalina
     </string>
 
 

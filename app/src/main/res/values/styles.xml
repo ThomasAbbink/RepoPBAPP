@@ -72,7 +72,13 @@
         <item name="android:typeface">sans</item>
         <item name="android:padding">20dp</item>
         <item name="android:textSize">14sp</item>
-
+    </style>
+    <style name="ticketbutton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">25sp</item>
     </style>
 
     <style name="programme_list_item">
