@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:dividerHeight="1dp"
-        android:divider="#FFFFFFFF" />
+        android:dividerHeight="1px"
+        android:divider="#20FFFFFF" />
 
 </RelativeLayout>
