@@ -5,6 +5,7 @@
     android:orientation="horizontal"
     android:padding="5dp">
 
+    <!-- date textview -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -13,8 +14,10 @@
         android:textColor="@drawable/clickable_color"
         android:typeface="sans"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp" />
 
+    <!-- title textview -->
     <TextView
         android:id="@+id/title"
         android:layout_height="wrap_content"
@@ -24,8 +27,10 @@
         android:typeface="sans"
         android:layout_below="@+id/date"
         android:layout_alignParentLeft="true"
-        android:layout_toLeftOf="@+id/pijltje" />
+        android:layout_toLeftOf="@+id/pijltje"
+        android:layout_marginLeft="10dp" />
 
+    <!-- chevron image -->
     <ImageView
         android:id="@+id/pijltje"
         android:src="@drawable/ic_chevron_right_white_48dp"
