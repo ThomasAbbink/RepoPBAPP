@@ -26,6 +26,7 @@ public class FilmActivity extends Activity {
         String title = res.getStringArray(R.array.titles)[index];
         String info = res.getStringArray(R.array.info)[index];
         String plot = res.getStringArray(R.array.plot)[index];
+        String muziek = res.getStringArray(R.array.muziek)[index];
         String trailer_url = res.getStringArray(R.array.trailer_url)[index];
         int thumbnail = getResources().getIdentifier("f"+index, "drawable", getPackageName());
 
@@ -33,6 +34,7 @@ public class FilmActivity extends Activity {
         ((TextView)findViewById(R.id.movietitle)).setText(title);
         ((TextView)findViewById(R.id.movieinfo)).setText(info);
         ((TextView)findViewById(R.id.movieplot)).setText(plot);
+        ((TextView)findViewById(R.id.muziek)).setText(muziek);
         ((TextView)findViewById(R.id.trailer_url)).setText(trailer_url); //hidden textview for url
         ((ImageView)findViewById(R.id.trailerbutton)).setImageResource(thumbnail);
 

@@ -147,6 +147,28 @@
         <item>Een onderschat pareltje, dit mooie drama over het New-Yorkse stel Ben (John Lithgow) en George (Alfred Molina). Ze zijn al eeuwen samen, kunnen eindelijk trouwen, en dan gaat het mis.</item>
     </string-array>
 
+    <string-array name="muziek">
+        <item>Live Muziek: \nDJ Marco Broere + Openingsact Arend Niks</item> <!--whiplash-->
+        <item>Live Muziek: \nPlastic Fantastic Timemachine</item><!--Frank-->
+        <item>Live Muziek: \nLaf</item><!--the imitation game-->
+        <item>Live Muziek: \nWillow Mae</item> <!--chef-->
+        <item>Vooraf aan deze film helaas geen live muziek</item><!--tussen 10 en 12-->
+        <item>Live Muziek: \nDagobah Soundsystem</item><!--pride-->
+        <item>Live Muziek: \nprogrammering door de Dag van de Romantische Muziek</item><!--sergio herman-->
+        <item>Vooraf aan deze film helaas geen live muziek</item><!--white god-->
+        <item>Live Muziek: \nSibe Kokke Experience</item><!--indiana jones-->
+        <item>Live Muziek: \nPleinbioscoop Meets Deaf Culture Speciaal Programma</item> <!--guardians-->
+        <item>Live Muziek: \nThree/Third</item> <!--birdman-->
+        <item>Live Muziek: \nMaurice van Hoek</item><!--meraviglie-->
+        <item>Vooraf aan deze film helaas geen live muziek</item><!--still alice-->
+        <item>Live Muziek: \nNathan Ignacio</item><!--turist-->
+        <item>Live Muziek: \nThe Maybellenes</item><!--foxcatcher-->
+        <item>Vooraf aan deze film helaas geen live muziek</item><!--taxi driver-->
+        <item>Live Muziek: \nReal Men Ain’t Pretty</item><!--wild-->
+        <item>Live Muziek: \nStijn en Paul</item><!--gone girl-->
+        <item>Live Muziek: \nDe B-Kant</item><!--love is strange-->
+    </string-array>
+
     <!--youtube links-->
     <string-array name="trailer_url">
         <item>https://www.youtube.com/watch?v=7d_jQycdQGo</item> <!--whiplash-->

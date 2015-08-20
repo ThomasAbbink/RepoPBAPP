@@ -57,6 +57,16 @@
             android:layout_alignParentStart="true"
             style="@style/movieplot"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/muziek"
+            android:layout_below="@+id/movieplot"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            style="@style/muziek"/>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +74,7 @@
             android:id="@+id/ticketbutton"
             android:clickable="true"
             android:onClick="onTicketsClick"
-            android:layout_below="@id/movieplot"
+            android:layout_below="@id/muziek"
             android:layout_centerHorizontal="true"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
