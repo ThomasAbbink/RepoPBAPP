@@ -70,6 +70,7 @@ public class FilmActivity extends Activity {
         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
     }
 
+
 }
 
 
