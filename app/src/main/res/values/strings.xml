@@ -124,6 +124,28 @@
         <item>Een onderschat pareltje, dit mooie drama over het New-Yorkse stel Ben (John Lithgow) en George (Alfred Molina). Ze zijn al eeuwen samen, kunnen eindelijk trouwen, en dan gaat het mis.</item>
     </string-array>
 
+    <string-array name="muziek">
+        <item>Live Muziek: \nDJ Marco Broere + Openingsact Arend Niks</item> <!--whiplash-->
+        <item>Live Muziek: \nPlastic Fantastic Timemachine</item><!--Frank-->
+        <item>Live Muziek: \nLaf</item><!--the imitation game-->
+        <item>Live Muziek: \nWillow Mae</item> <!--chef-->
+        <item>Vooraf aan deze film helaas geen live muziek</item><!--tussen 10 en 12-->
+        <item>Live Muziek: \nDagobah Soundsystem</item><!--pride-->
+        <item>Live Muziek: \nprogrammering door de Dag van de Romantische Muziek</item><!--sergio herman-->
+        <item>Vooraf aan deze film helaas geen live muziek</item><!--white god-->
+        <item>Live Muziek: \nSibe Kokke Experience</item><!--indiana jones-->
+        <item>Live Muziek: \nPleinbioscoop Meets Deaf Culture Speciaal Programma</item> <!--guardians-->
+        <item>Live Muziek: \nThree/Third</item> <!--birdman-->
+        <item>Live Muziek: \nMaurice van Hoek</item><!--meraviglie-->
+        <item>Vooraf aan deze film helaas geen live muziek</item><!--still alice-->
+        <item>Live Muziek: \nNathan Ignacio</item><!--turist-->
+        <item>Live Muziek: \nThe Maybellenes</item><!--foxcatcher-->
+        <item>Vooraf aan deze film helaas geen live muziek</item><!--taxi driver-->
+        <item>Live Muziek: \nReal Men Ain’t Pretty</item><!--wild-->
+        <item>Live Muziek: \nStijn en Paul</item><!--gone girl-->
+        <item>Live Muziek: \nDe B-Kant</item><!--love is strange-->
+    </string-array>
+
     <!--youtube links-->
     <string-array name="trailer_url">
         <item>https://www.youtube.com/watch?v=7d_jQycdQGo</item> <!--whiplash-->
@@ -150,6 +172,8 @@
     <string name="tickets">Tickets</string>
 
 
+
+
     <!-- Strings for the Info Fragment-->
     <string name="stoeltjes">Stoeltjes</string>
     <string name="drank">Drank</string>
@@ -165,156 +189,157 @@
     <string name="vrijwilligers">Vrijwilligers</string>
 
 
+
     <!-- Strings for the detail panes in the Info Fragment-->
     <string name="stoeltjes_detail">
-            Bezoekers kunnen een stoel huren voor 1,- euro (er zijn genoeg stoelen aanwezig) of mogen een eigen stoel meenemen.
-            Vroege vogels kunnen een van de al aanwezige zitplaatsen claimen.
-            Er zijn dekens beschikbaar op het terrein tegen een borg van 10,- euro.
-            We raden aan om voor de koelere avonduren extra kleding mee te nemen.
+        Bezoekers kunnen een stoel huren voor 1,- euro (er zijn genoeg stoelen aanwezig) of mogen een eigen stoel meenemen.
+        Vroege vogels kunnen een van de al aanwezige zitplaatsen claimen.
+        Er zijn dekens beschikbaar op het terrein tegen een borg van 10,- euro.
+        We raden aan om voor de koelere avonduren extra kleding mee te nemen.
     </string>
 
     <string name="drank_det">
-            Er is een groot aanbod aan eten en drinken aanwezig op het terrein. Eigen eten en drinken mag mee, maar mag, om veiligeheidsredenen niet in glas zijn verpakt.
+        Er is een groot aanbod aan eten en drinken aanwezig op het terrein. Eigen eten en drinken mag mee, maar mag, om veiligeheidsredenen niet in glas zijn verpakt.
     </string>
 
     <string name="openingstijden_det">
-            Het terrein is geopend om 19:00 uur, dan kun je dineren en live muziek beluisteren.\n
-            \nStart filmprogramma inclusief korte film om 21:15 uur.\n
-            \nEr is geen pauze in de film.\n
-            \nMet name in de eerste dagen zal de film iets later moeten starten i.v.m. de zonsondergang, want pas in het donker is de film goed te zien. Het terrein sluit om middernacht.
+        Het terrein is geopend om 19:00 uur, dan kun je dineren en live muziek beluisteren.\n
+        \nStart filmprogramma inclusief korte film om 21:15 uur.\n
+        \nEr is geen pauze in de film.\n
+        \nMet name in de eerste dagen zal de film iets later moeten starten i.v.m. de zonsondergang, want pas in het donker is de film goed te zien. Het terrein sluit om middernacht.
     </string>
 
     <string name="prijzen_det">
-            € 6,- voor een ‘Steun de Pleinbioscoop’ Ticket.\n
-            \n€ 4,- euro regulier tarief\n
-            \n€ 30,- Tien ritten kaart. Te gebruiken met max. 2 personen per avond.\n
-            \nEen stoel huren: € 1,-.\n
-            \nKoop je kaarten online of bij de entree kassa.
+        € 6,- voor een ‘Steun de Pleinbioscoop’ Ticket.\n
+        \n€ 4,- euro regulier tarief\n
+        \n€ 30,- Tien ritten kaart. Te gebruiken met max. 2 personen per avond.\n
+        \nEen stoel huren: € 1,-.\n
+        \nKoop je kaarten online of bij de entree kassa.
     </string>
 
     <string name="organisatie_dat">
-            De Pleinbioscoop Rotterdam 2015 wordt georganiseerd door Stichting Pleinbioscoop Rotterdam:\n
-            \nZakelijk Leider: Joost Maaskant\n
-            \nProjectleider: Randi de Vries\n
-            \nProgrammeur: Pauline Kleijer\n
-            \nMarketing en Communicatie + Speciale Projecten: Nikki Kamps\n
-            \nVormgeving: HuffenReuter Beeld en Boodschap\n
-            \nWebsite: Tanja Stomp\n
-            \nVrijwilligers: Thomas en Thomas\n
-            \nHoreca en Stoeltjescollectief: Hannah Abbink\n
-            \nFondsenwerving: Ineke Kruizinga en Mirijam Neve\n
-            \nCurator Korte Film Competitie En Plein Public: Erwin Houtenbrink\n
-            \nPersbenadering: Femke Cuijpers/Creatieve Kwesties\n
-            \nApp: Arno Huisman en Thomas Abbink
+        De Pleinbioscoop Rotterdam 2015 wordt georganiseerd door Stichting Pleinbioscoop Rotterdam:\n
+        \nZakelijk Leider: Joost Maaskant\n
+        \nProjectleider: Randi de Vries\n
+        \nProgrammeur: Pauline Kleijer\n
+        \nMarketing en Communicatie + Speciale Projecten: Nikki Kamps\n
+        \nVormgeving: HuffenReuter Beeld en Boodschap\n
+        \nWebsite: Tanja Stomp\n
+        \nVrijwilligers: Thomas en Thomas\n
+        \nHoreca en Stoeltjescollectief: Hannah Abbink\n
+        \nFondsenwerving: Ineke Kruizinga en Mirijam Neve\n
+        \nCurator Korte Film Competitie En Plein Public: Erwin Houtenbrink\n
+        \nPersbenadering: Femke Cuijpers/Creatieve Kwesties\n
+        \nApp: Arno Huisman en Thomas Abbink
     </string>
 
     <string name="eten_drinken_dat">
-            Er is een groot aanbod aan eten en drinken aanwezig op het terrein. Eigen eten en drinken mag mee, maar mag, om veiligeheidsredenen niet in glas zijn verpakt.
+        Er is een groot aanbod aan eten en drinken aanwezig op het terrein. Eigen eten en drinken mag mee, maar mag, om veiligeheidsredenen niet in glas zijn verpakt.
     </string>
 
     <string name="parkeren_dat">
-            Het terrein van de Pleinbioscoop bevindt zich boven een parkeergarage.
+        Het terrein van de Pleinbioscoop bevindt zich boven een parkeergarage.
     </string>
 
     <string name="beperking_dat">De Pleinbioscoop is 100% rolstoelvriendelijk.\n
-            \nEr is een invalidentoilet aanwezig.\n
-            \nInformatie over ondertiteling kunt u op onze programma pagina bij iedere film vinden.
-            Tijdens Pleinbioscoop Meets Deaf Culture op 21 augustus zijn er bij alle posten vrijwilligers aanwezig die Nederlands Gebaren Taal spreken.
-            Ook wordt de film in gebarentaal aangekondigd en de live muziek door signdancers vertolkt.\n
-            \nDe Pleinbioscoop is een relatief rustig festival, er zijn veel mensen maar er wordt voornamelijk met aandacht de film gekeken.
-            Mocht u meer informatie wensen over het bezoeken van de Pleinbioscoop met een beperking, schroom dan niet om contact met ons op te nemen via de gegevens op deze pagina.
+        \nEr is een invalidentoilet aanwezig.\n
+        \nInformatie over ondertiteling kunt u op onze programma pagina bij iedere film vinden.
+        Tijdens Pleinbioscoop Meets Deaf Culture op 21 augustus zijn er bij alle posten vrijwilligers aanwezig die Nederlands Gebaren Taal spreken.
+        Ook wordt de film in gebarentaal aangekondigd en de live muziek door signdancers vertolkt.\n
+        \nDe Pleinbioscoop is een relatief rustig festival, er zijn veel mensen maar er wordt voornamelijk met aandacht de film gekeken.
+        Mocht u meer informatie wensen over het bezoeken van de Pleinbioscoop met een beperking, schroom dan niet om contact met ons op te nemen via de gegevens op deze pagina.
     </string>
 
     <string name="roken_dat">De Pleinbioscoop vindt plaats in de open lucht, daarom mag er tabak worden gerookt.
-            Wees vriendelijk aangaande eventuele overlast voor andere bezoekers. De rook van een sigaret kan soms het zicht op het scherm vertroebelen.
-            Hou er rekening mee dat u (o.a.) daarom verzocht kan worden niet te roken op uw zitplaats.
-            Het roken van (soft)drugs is wel uitdrukkelijk verboden.
+        Wees vriendelijk aangaande eventuele overlast voor andere bezoekers. De rook van een sigaret kan soms het zicht op het scherm vertroebelen.
+        Hou er rekening mee dat u (o.a.) daarom verzocht kan worden niet te roken op uw zitplaats.
+        Het roken van (soft)drugs is wel uitdrukkelijk verboden.
     </string>
 
     <string name="dieren_dat">
-            Honden en andere huisdieren mogen mee naar eigen inzicht en gezond verstand.
-            Honden aan een (slappe) lijn. Houd rekening met omringende bezoekers en kies een plaats aan de rand van een van de publieksvakken.
+        Honden en andere huisdieren mogen mee naar eigen inzicht en gezond verstand.
+        Honden aan een (slappe) lijn. Houd rekening met omringende bezoekers en kies een plaats aan de rand van een van de publieksvakken.
     </string>
 
     <string name="pinnen_dat">
-            Je kunt pinnen en geld opnemen bij de entreekassa.
+        Je kunt pinnen en geld opnemen bij de entreekassa.
     </string>
     <string name="vrijwilligers_dat">
-            \nDe Pleinbioscoop zou niet mogelijk zijn zonder het harde werken van al onze vrijwilligers:\n
-            \nAdwin van Gerven
-            \nAmelie Dufour
-            \nAndrée van de Berg
-            \nAnneke Koster
-            \nAnnekoos Logtenberg
-            \nAnnelous Wieringa
-            \nAnnemarie Rausch
-            \nAnton Hazenak
-            \nArdie  Vos
-            \nAriel Cabral
-            \nArthur van der Ham
-            \nArvid de Waardt
-            \nBerta Stossel
-            \nBoudewijn van Leeuwen
-            \nCaitlin Koenig
-            \nCarlo Pietramale
-            \nChu Ming Kwok
-            \nClaire Hathorne
-            \nDaphne Abbink
-            \nDaphne Bisterbosch
-            \nDiede Greweldinger
-            \nElias Abbink
-            \nElma Jonker
-            \nEmma Koenig
-            \nEric Langbroek
-            \nEsther van Vliet
-            \nFabienne Reedijk
-            \nFemke van der Voet
-            \nFloor van Dongen
-            \nGabriella Bink
-            \nGerard van Helden
-            \nGerdien van der Schenk
-            \nGiorgio Brouwer
-            \nHansje Veen
-            \nIris van der Rest
-            \nIsa Plug
-            \nJan Hoefnagels
-            \nJerry van Leeuwen
-            \nJolanda de Jonge
-            \nKim van Hees
-            \nLauren Verbrugh
-            \nLianne Enkhuizen
-            \nLoles Hoogerland
-            \nLotte van der Zel
-            \nMaaike Lagendijk
-            \nManon de Wit
-            \nMarcel van Berk
-            \nMarco Oudewortel
-            \nMarije Paulides
-            \nMarley van der Knaap
-            \nMilou Terpstra
-            \nMinerva Ishak
-            \nNaomi Stal
-            \nPinar dagidir
-            \nPriscilla Kadirbaks
-            \nRénia Sastrowidjojo
-            \nRenata Tavares Furtado
-            \nRoberto Solisa
-            \nRonelle Abbink
-            \nRuurd Bouter
-            \nSally Hoogenboom
-            \nSaskia Geraedts
-            \nSemmi Oudejans
-            \nStefanie Stappers
-            \nStijn Bossuyt
-            \nTereza Nerad
-            \nThomas Harteveld
-            \nThomas Thiele
-            \nTineke van der Gaast
-            \nVeerle Bonestroo
-            \nVera Bekkers
-            \nVera Robbertsen
-            \nWout Panis
-            \nZeny Rosalina
+        \nDe Pleinbioscoop zou niet mogelijk zijn zonder het harde werk van al onze vrijwilligers:\n
+        \nAdwin van Gerven
+        \nAmelie Dufour
+        \nAndrée van de Berg
+        \nAnneke Koster
+        \nAnnekoos Logtenberg
+        \nAnnelous Wieringa
+        \nAnnemarie Rausch
+        \nAnton Hazenak
+        \nArdie  Vos
+        \nAriel Cabral
+        \nArthur van der Ham
+        \nArvid de Waardt
+        \nBerta Stossel
+        \nBoudewijn van Leeuwen
+        \nCaitlin Koenig
+        \nCarlo Pietramale
+        \nChu Ming Kwok
+        \nClaire Hathorne
+        \nDaphne Abbink
+        \nDaphne Bisterbosch
+        \nDiede Greweldinger
+        \nElias Abbink
+        \nElma Jonker
+        \nEmma Koenig
+        \nEric Langbroek
+        \nEsther van Vliet
+        \nFabienne Reedijk
+        \nFemke van der Voet
+        \nFloor van Dongen
+        \nGabriella Bink
+        \nGerard van Helden
+        \nGerdien van der Schenk
+        \nGiorgio Brouwer
+        \nHansje Veen
+        \nIris van der Rest
+        \nIsa Plug
+        \nJan Hoefnagels
+        \nJerry van Leeuwen
+        \nJolanda de Jonge
+        \nKim van Hees
+        \nLauren Verbrugh
+        \nLianne Enkhuizen
+        \nLoles Hoogerland
+        \nLotte van der Zel
+        \nMaaike Lagendijk
+        \nManon de Wit
+        \nMarcel van Berk
+        \nMarco Oudewortel
+        \nMarije Paulides
+        \nMarley van der Knaap
+        \nMilou Terpstra
+        \nMinerva Ishak
+        \nNaomi Stal
+        \nPinar dagidir
+        \nPriscilla Kadirbaks
+        \nRénia Sastrowidjojo
+        \nRenata Tavares Furtado
+        \nRoberto Solisa
+        \nRonelle Abbink
+        \nRuurd Bouter
+        \nSally Hoogenboom
+        \nSaskia Geraedts
+        \nSemmi Oudejans
+        \nStefanie Stappers
+        \nStijn Bossuyt
+        \nTereza Nerad
+        \nThomas Harteveld
+        \nThomas Thiele
+        \nTineke van der Gaast
+        \nVeerle Bonestroo
+        \nVera Bekkers
+        \nVera Robbertsen
+        \nWout Panis
+        \nZeny Rosalina
     </string>
 
 
