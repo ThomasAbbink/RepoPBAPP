@@ -22,12 +22,14 @@ public class FilmActivity extends Activity {
         int index = intent.getIntExtra("index", 0);
 
         Resources res = getResources();
+        String date = res.getStringArray(R.array.fulldates)[index];
         String title = res.getStringArray(R.array.titles)[index];
         String info = res.getStringArray(R.array.info)[index];
         String plot = res.getStringArray(R.array.plot)[index];
         String trailer_url = res.getStringArray(R.array.trailer_url)[index];
         int thumbnail = getResources().getIdentifier("f"+index, "drawable", getPackageName());
 
+        ((TextView)findViewById(R.id.moviedate)).setText(date);
         ((TextView)findViewById(R.id.movietitle)).setText(title);
         ((TextView)findViewById(R.id.movieinfo)).setText(info);
         ((TextView)findViewById(R.id.movieplot)).setText(plot);

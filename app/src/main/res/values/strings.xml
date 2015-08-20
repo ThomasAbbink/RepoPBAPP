@@ -53,6 +53,29 @@
         <item>zo 30</item>
     </string-array>
 
+    <string-array name="fulldates">
+        <item>wo 12 augustus</item>
+        <item>do 13 augustus</item>
+        <item>vr 14 augustus</item>
+        <item>za 15 augustus</item>
+        <item>zo 16 augustus</item>
+        <item>ma 17 augustus</item>
+        <item>di 18 augustus</item>
+        <item>wo 19 augustus</item>
+        <item>do 20 augustus</item>
+        <item>vr 21 augustus</item>
+        <item>za 22 augustus</item>
+        <item>zo 23 augustus</item>
+        <item>ma 24 augustus</item>
+        <item>di 25 augustus</item>
+        <item>wo 26 augustus</item>
+        <item>do 27 augustus</item>
+        <item>vr 28 augustus</item>
+        <item>za 29 augustus</item>
+        <item>zo 30 augustus</item>
+    </string-array>
+
+
     <!--titels-->
     <string-array name="titles">
         <item>Whiplash</item>
@@ -151,6 +174,7 @@
 
 
     <!-- Strings for the Info Fragment-->
+    <string name="locatie">Locatie</string>
     <string name="stoeltjes">Stoeltjes</string>
     <string name="drank">Drank</string>
     <string name="openingstijden">Openingstijden</string>
@@ -205,7 +229,12 @@
             \nFondsenwerving: Ineke Kruizinga en Mirijam Neve\n
             \nCurator Korte Film Competitie En Plein Public: Erwin Houtenbrink\n
             \nPersbenadering: Femke Cuijpers/Creatieve Kwesties\n
-            \nApp: Arno Huisman en Thomas Abbink
+            \nApp: Arno Huisman en Butje Abbink
+    </string>
+
+    <string name="locatie_dat">
+            De Pleinbioscoop bevindt zich in Rotterdam in het Museumpark.\n\n
+            Navigatie: Museumpark 32, 3015 CX.
     </string>
 
     <string name="eten_drinken_dat">

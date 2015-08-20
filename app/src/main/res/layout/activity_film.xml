@@ -22,10 +22,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="New Text"
-            android:id="@+id/movietitle"
+            android:id="@+id/moviedate"
+            style="@style/moviedate"
             android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/movietitle"
             android:gravity="center"
-            style="@style/movietitle"/>
+            style="@style/movietitle"
+            android:layout_below="@id/moviedate"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -70,8 +81,8 @@
             android:adjustViewBounds="true"
             android:layout_below="@+id/ticketbutton"
             android:layout_centerHorizontal="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"/>
 

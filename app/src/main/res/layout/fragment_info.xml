@@ -11,6 +11,30 @@
         android:orientation="vertical"
         android:padding="15dp">
 
+        <!-- Layout for locatie title/detail pair  -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                style="@style/info_title_container">
+
+                <ImageView
+                    style="@style/info_chevron"/>
+
+                <TextView
+                    style="@style/info_title"
+                    android:text="@string/locatie"/>
+
+            </LinearLayout>
+
+            <TextView
+                style="@style/info_details"
+                android:text="@string/locatie_dat" />
+
+        </LinearLayout>
+
         <!-- Layout for openingstijden title/detail pair  -->
         <LinearLayout
             android:orientation="vertical"
