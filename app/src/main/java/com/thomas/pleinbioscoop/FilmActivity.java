@@ -65,7 +65,7 @@ public class FilmActivity extends Activity {
     }
 
     public void onTicketsClick(View v){
-        String url = "https://pleinbioscoop.stager.nl/web/tickets";
+        String url = "https://pleinbioscoop.stager.nl/Pleinbioscoop/tickets";
 
         startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
     }
